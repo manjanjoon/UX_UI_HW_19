@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+    font-family:'Lato', sans-serif;
+}
+
+header {
+    overflow: visible;
+    background-color: #ffffff;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 250px 50px 250px;
+}
+
+header .logo {
+    width: 50px; 
+    height: auto; 
+    padding: 10px;
+}
+
+.logo {
+    outline: 1px solid red;
+}
+.twoColumns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.Maneliimage {
+    outline: 1px solid red;
+    width: 50%;
+    text-align: right;
+    /*padding-top: 168px;
+    padding-left: 344px;*/
+}
+
+.text {
+    float: right;
+    outline: 1px solid rgb(255, 0, 0);
+    font-weight: bold;
+    width: 50%;
+   /* padding-top: 168px;*/
+    letter-spacing: 10px;
+}
+
+
+.first-heading {
+    outline: 1px solid rgb(255, 0, 0);
+    color: black;
+    font-family: 'Lato';
+    letter-spacing: -6px;
+    font-size: 90px;
+
+}
+
+.second-heading {
+    outline: 1px solid rgb(255, 0, 0);
+    color: black;
+    text-align: left;
+    font-family: 'lato', sans-serif;
+    letter-spacing: -3px;
+    font-size: 50px;
+}
+
+.third-heading {
+    outline: 1px solid rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -2px;
+    font-size: 35px;
+}
+
+p {
+    outline: 1px solid rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family:'lato';
+}
+/* above code is the p throughout */
+
+.aboutme{
+    /*.aboutme{
+        display: inline-block;
+        outline: 1px solid rgb(255, 0, 0);        
+        display: flex;
+        margin: 0px 0px 0px 50px;
+        padding: 0 0 0 0;
+        font-family: 'lato'; 
+        width: 20%;
+        letter-spacing:0px;
+        background-color: #DAD6CA;
+        caption-side: bottom;
+       
+       
+        }*/
+    }
+    .aboutmetitle {
+        font-size: 50px;
+        letter-spacing: -4px;
+        margin: 0%;
+        padding: 0;
+
+    }
+
+    .aboutme{
+        outline: 1px solid rgb(13, 0, 255); 
+        font-family: 'lato'; 
+        /*width: 80%;*/
+        max-width: 1200px;
+        letter-spacing:0px;
+        padding: 10px 10px 10px 10px;
+       /*margin: 40px 20px 00px 50px ;*/
+       margin: 0 auto;
+       /* display: flex;*/
+        font-size: 16px;
+    
+    }
+   .mypictures{
+    display: flex;
+   }
+    
+.mywork{
+    outline: 1px solid rgb(0, 255, 60);
+   flex-wrap: nowrap;
+    margin: 30px;
+    padding: 0px 0px 10px 10px;
+    background-color: #DAD6CA;
+    color: #000000;
+}
+
+.worktitle{
+    outline: 1px solid red; 
+    font-family: 'lato'; 
+    font-size: 50px;
+    width: 20%;
+    letter-spacing:-4px;
+    padding: 0px 0 px 0px 0px;
+    margin: 0px 20px 0px 50px ;
+    background-color: #DAD6CA;
+}
+.highpoint{
+    outline: 1px solid red; 
+    color: #ff0000;
+}
+
+section {
+    outline: 1px solid rgb(7, 109, 0); 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.myskills {
+    outline: 1px solid red; 
+    flex-wrap: nowrap;
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    background-color: #ffffff;
+    display:flex;
+    
+}
+.skilltitle{
+    outline: 1px solid red; 
+    font-family: 'lato'; 
+    font-size: 50px;
+    width: 20%;
+    letter-spacing:-4px;
+    padding: 0px 0 px 0px 0px;
+    margin: 0px 20px 0px 50px ;
+    
+}
+
+.linedrawing{
+    outline: 1px solid red;  
+    padding: 0px 0px 0px 40px; 
+    margin: 0px 20px 0px 0px;
+}
+
+.flexcontainer{
+    outline: 1px solid rgb(0, 89, 255);  
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 50px;
+    padding: 10px 10px 10px 10px;
+    text-align:left;
+}
+
+.flexcontainer
+div{
+    outline: 1px solid rgb(255, 0, 0);
+    background-color: #ffffff;
+    width: 0px;
+    height: 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    display:flex;
+    
+
+}
+/*.flexcontainer{
+    outline: 1px solid rgb(33, 188, 227);  
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px;
+    padding: 0px 0px 0px 0px;
+    display: inline-flex;
+}*/
+.flexcontainer 
+div {
+    outline: 1px solid rgb(255, 0, 0);
+    background-color: #ffffff;
+    width: 1000px;
+    height: 200px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    display: inline-flex;
+   
+
+}
+body, h1, p {
+    outline: 1px solid rgb(255, 0, 0);
+    margin: 0;
+    padding: 0;
+    background-color: #DAD6CA;
+    letter-spacing: 0px;
+    font-family: 'Lato';
+    font-size: 18px;
+    
+
+.main { 
+    outline: 1px solid #000000;
+   
+    width: 200px;
+    height: 900px;
+
+ 
+
+
+.title{
+    outline: 1px solid rgb(201, 58, 58); 
+    font-family: 'lato'; 
+    font-size: 50px;
+    width: 20%;
+    letter-spacing:-4px;
+    padding: 0px 0 px 0px 0px;
+    margin: 0px 20px 0px 50px ;
+}
+.linedrawing{
+    outline: 1px solid red;  
+    padding: 0px 0px 0px 40px; 
+    margin: 0px 20px 0px 0px;
+}
+
+}
+body, h1, p {
+    outline: 1px solid rgb(255, 0, 0);
+    margin: 0;
+    padding: 0;
+    background-color: #DAD6CA;
+    letter-spacing: 0px;
+    font-family: 'Lato';
+    font-size: 18px;
+    
+}
+
+
+}
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+}    
+
+footer {
+    outline: 1px solid rgb(255, 0, 0);
+    background-color: #848484;
+    padding: 70px;
+}
+.footer ul li {
+list-style-type: square;
+ }
+
+ footer ul li {
+    color: white;
+    font-size: 18px;
+ }
+
+
